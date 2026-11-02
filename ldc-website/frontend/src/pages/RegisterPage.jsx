@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 const RegisterPage = () => {
     return (
         <>
-            <Register />
+            <ComingSoon />
 
             <Footer />
         </>

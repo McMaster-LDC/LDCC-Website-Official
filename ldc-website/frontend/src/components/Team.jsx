@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 // Team component
-import Default from '/src/assets/officialLogo.png';
+const Default = '/2026-logo.png';
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';

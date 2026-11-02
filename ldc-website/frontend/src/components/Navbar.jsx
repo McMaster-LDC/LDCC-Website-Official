@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/officialLogo.png'
+const Logo = '/2026-logo.png';
 import Headroom from 'react-headroom'
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
