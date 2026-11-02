@@ -96,11 +96,11 @@ const UploadResume = () => {
             </div>
 
             <button 
+                disabled
                 onClick={handleUpload} 
-                disabled={isUploading} 
-                className="bg-purple-950 w-full hover:bg-red-900 transition p-4 rounded-2xl text-white mt-2"
+                className=" w-full transition p-4 rounded-2xl text-white mt-2 cursor-disabled bg-gray-500"
             >
-                {isUploading ? "Uploading..." : "Upload Resume"}
+                Form Closed! Check back soon
             </button>
             {message && <p className="mt-2 text-purple-950">{message}</p>}
 

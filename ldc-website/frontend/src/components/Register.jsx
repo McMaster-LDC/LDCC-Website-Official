@@ -44,10 +44,10 @@ const Register = () => {
 
         <article className="flex flex-col items-between max-w-screen-lg w-full -mt-4">
           <h2 className="font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md">
-            The form to register is now closed!
+            Registration will open soon! 
           </h2>
           <p className="font-medium md:text-md lg:text-lg text-sm mt-2">
-            Thanks everyone for registering! We will be sending out emails to those who registered early with more information soon! Keep an eye out!
+            Keep an eye out for updates on our social media platforms and website for when registration opens.
           </p>
         </article>
 
@@ -160,7 +160,7 @@ const Register = () => {
           <section className="grid grid-cols-1 gap-y-6 w-full">
             <div className="flex text-center justify-center">
             <button type="submit" disabled className={`w-full p-4 rounded-2xl cursor-not-allowed text-white font-medium cursor-disabled bg-gray-500`}>
-              Form Closed. Thank you for registering!
+              Form Closed. Keep an eye out for updates!
             </button>
 
             </div>

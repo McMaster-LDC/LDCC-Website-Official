@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import eventInfo from '../data/eventInfo';
 
 const FAQ = () => {
   const topics = [
@@ -15,7 +16,7 @@ const FAQ = () => {
     {
       title: "Where and when is the conference",
       description:
-        "The event will be held on March 17th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
+        `The event will be held on ${eventInfo.date} from ${eventInfo.time} at ${eventInfo.venue}, at ${eventInfo.location}.`,
     },
     {
       title:
@@ -30,15 +31,7 @@ const FAQ = () => {
     },
     {
       title: "Is registration open?",
-      description: "The Early Registration has closed. However, Official Registration will be open on OscarPlus soon!.",
-    },
-    {
-      title: "I registered, now what?",
-      description: "If you have registered through the Early Registration, you will receive an email with more information about the event and you will be placed on the priority list.",
-    },
-    {
-      title: "What is 'Priority List'?",
-      description: "While we aim to accommodate as many students as possible, space is limited to 300 attendees. Those who completed early registration will have the opportunity to secure their spot first.",
+      description: "Official Registration will be open soon!.",
     },
     {
       title:
@@ -46,12 +39,12 @@ const FAQ = () => {
       description:
         "Yes, there will be dedicated networking sessions with industry professionals, students who have experience in the industry, and recruiters from companies.",
     },
-    {
-      title:
-        "What does 'Exclusive Workshop' mean?",
-      description:
-        "Our Exclusive Workshop is a unique opportunity for students to engage with our top-tier sponsor in a more intimate setting. This is a chance to ask questions, learn from their experiences, and gain valuable insights. They will be holding a personalized workshop for a select group of students.",
-    },
+    // {
+    //   title:
+    //     "What does 'Exclusive Workshop' mean?",
+    //   description:
+    //     "Our Exclusive Workshop is a unique opportunity for students to engage with our top-tier sponsor in a more intimate setting. This is a chance to ask questions, learn from their experiences, and gain valuable insights. They will be holding a personalized workshop for a select group of students.",
+    // },
     {
       title:
         "What is a conference? What can I expect?",
@@ -68,24 +61,28 @@ const FAQ = () => {
       description:
         "Absolutely not. This event is completely free; however, space is limited!",
     },
-    {
-      title:
-        "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
-      description: "We have 1p10 bonus confirmed! However, we are still working to get 1p13.",
-    },
+    // {
+    //   title:
+    //     "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
+    //   description: "We have 1p10 bonus confirmed! However, we are still working to get 1p13.",
+    // },
     {
       title:
         "How can I prepare for the event?",
       description: "Come prepared to network and engage with speakers. Think about what leadership and personal brand mean to you. Dress professionally, especially if you plan on getting a LinkedIn headshot!",
     },
     {
-      title:
-        "What can I expect from the event?",
-      description: 
-        <><li>Listen to inspiring keynote speakers and industry professionals.</li>
-        <li>Participate in networking sessions to connect with peers and industry leaders.</li>
-        <li>Receive professional LinkedIn headshots to enhance their online presence.</li>
-        <li>Learn practical skills for personal branding, leadership, and career growth.</li></>
+      title: "What can I expect from the event?",
+      description: (
+        <ul className="list-disc list-inside space-y-1">
+          <li>Listen to inspiring keynote speakers and industry professionals.</li>
+          <li>
+            Participate in networking sessions to connect with peers and industry leaders.
+          </li>
+          <li>Receive professional LinkedIn headshots to enhance their online presence.</li>
+          <li>Learn practical skills for personal branding, leadership, and career growth.</li>
+        </ul>
+      ),
     },
     {
       title:
@@ -142,7 +139,7 @@ const FAQ = () => {
                 <h3 className="md:text-lg text-md font-semibold text-red-900">
                   {topic.title}
                 </h3>
-                <p className="mt-2 text-sm md:text-md">{topic.description}</p>
+                <div className="mt-2 text-sm md:text-md">{topic.description}</div>
               </div>
             ))}
           </section>

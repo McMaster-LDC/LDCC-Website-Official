@@ -5,20 +5,12 @@ import AboutImg3 from '/src/assets/about-img3.png';
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { TbMapPin2 } from "react-icons/tb";
+import eventInfo from '../data/eventInfo';
 
 
 
 
 const About = () => {
-
-    //Update date when event date is confirmed
-    const dateOfEvent = ['Date: Monday March 17th, 2025']
-
-    //Update time when event time is confirmed
-    const timeOfEvent = ['Timings: 5:00 - 9:00 PM (Doors open at 4:30 PM)']
-
-    //Update hall when exact location is confirmed
-    const hallOfEvent = ['CIBC Hall']
 
     const eventList = [
         {
@@ -38,7 +30,7 @@ const About = () => {
         },
     ]
 
-    const eventInfo = <p>The Leadership Development Conference (LDC) is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
+    const eventDescription = <p>The Leadership Development Conference (LDC) is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
         <br/><br/>
     Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.
         <br/><br/>
@@ -52,7 +44,7 @@ const About = () => {
                 <h1 className='flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>About</h1>
                 <article className="flex justify-between max-w-screen-xl w-full items-center -mt-4 gap-4">
                     <div className='flex flex-col text-start'>
-                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
+                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '27</h1>
                         {/* <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p> */}
 
                         <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md' >Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, final-year capstone projects, networking opportuinties and Linkedin headshots! Early registeration is now closed! </p>
@@ -60,19 +52,19 @@ const About = () => {
                         <section className='flex flex-col text-lg font-bold gap-2'>
                             <div className='flex gap-2 items-center'>
                                 < FaCalendarAlt />
-                                <p>{dateOfEvent}</p>
+                                <p>Date: {eventInfo.date}</p>
                             </div>
                             <div className='flex gap-2 items-center'>
                                 < IoMdTime />
-                                <p>{timeOfEvent}</p>
+                                <p>Timings: {eventInfo.time}</p>
                             </div>
                             <div className='flex gap-2 items-center'>
                                 < TbMapPin2 />
-                                <p>McMaster University, {hallOfEvent}</p>
+                                <p>{eventInfo.venue}, {eventInfo.location}</p>
                             </div>
                         </section>
 
-                        <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md'>{eventInfo}</p>
+                        <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md'>{eventDescription}</p>
 
                         <div className="md:hidden flex bg-bottom select-none opacity-90 mt-4">
                             <img src={AboutImg1} alt = "Dhruv" className="w-1/2 h-3/4 top-0 border-4 rounded-xl border-red-900 right-0 object-cover transform rotate-[5deg]" />
@@ -108,7 +100,7 @@ const About = () => {
 
                 <article className="flex justify-center max-w-screen-xl w-full items-center">
                     <div className='flex flex-col text-start max-w-screen-xl justify-center items-center '>
-                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Last year we had...</h1>
+                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>In previous years we've had...</h1>
 
                         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-10 gap-5 pt-5 md:text-lg text-md text-center items-center max-w-screen-lg w-full'>
                             <div className='border px-10 py-4 text-orange-50 bg-purple-950 rounded-2xl w-full'>

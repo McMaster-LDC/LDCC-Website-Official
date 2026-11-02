@@ -1,0 +1,80 @@
+
+/* Entrance animations use translation instead of
+   scaling or skewing the text. */
+
+@keyframes comic-drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+
+  85% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes comic-swipe {
+  0% {
+    opacity: 0;
+    transform: translateX(-42px);
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateX(7px);
+  }
+
+  85% {
+    transform: translateX(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes comic-sticker {
+  0% {
+    opacity: 0;
+    transform: translateY(-18px) rotate(-13deg);
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateY(4px) rotate(5deg);
+  }
+
+  85% {
+    transform: translateY(-2px) rotate(-2deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes comic-rush {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
