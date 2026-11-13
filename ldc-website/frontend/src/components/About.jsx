@@ -15,7 +15,7 @@ const About = () => {
     const dateOfEvent = ['Date: January 30, 2027']
 
     //Update time when event time is confirmed
-    const timeOfEvent = ['Timings: 10:00 AM - 6:00 PM']
+    const timeOfEvent = ['Timings: TBD']
 
     //Update hall when exact location is confirmed
     const hallOfEvent = ['PGCLL']
