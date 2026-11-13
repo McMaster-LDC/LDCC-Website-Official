@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import Logo from '../assets/footerlogo.png'
+const Logo = '/2026-logo.png';
 
 const Footer = () => {
 
@@ -29,7 +29,7 @@ const Footer = () => {
         },
         { 
             title: 'Agenda', 
-            path: '/404' 
+            path: '/Agenda' 
         },
         // { 
         //     title: 'Speakers', 
@@ -37,7 +37,7 @@ const Footer = () => {
         // },
         { 
             title: 'Sponsors', 
-            path: '/404' 
+            path: '/Sponsors' 
         },
         { 
             title: 'Team', 

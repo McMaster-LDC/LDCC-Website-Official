@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\mayya\\OneDrive - McMaster University\\SoftwareEng - Copy\\4_Fall2026\\LDC\\LDCC-Website-Official\\ldc-website\\frontend\\dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "C:\\Users\\mayya\\OneDrive - McMaster University\\SoftwareEng - Copy\\4_Fall2026\\LDC\\LDCC-Website-Official\\ldc-website\\frontend"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

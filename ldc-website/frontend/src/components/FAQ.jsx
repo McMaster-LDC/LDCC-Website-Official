@@ -15,7 +15,7 @@ const FAQ = () => {
     {
       title: "Where and when is the conference",
       description:
-        "The event will be held on March 17th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
+        "The event will be held on January 30th at PGCLL, at the McMaster University campus in Hamilton, Ontario.",
     },
     {
       title:
@@ -27,18 +27,6 @@ const FAQ = () => {
       title: "What topics will be covered during the conference?",
       description:
         "Topics include personal branding strategies, leveraging LinkedIn, building a professional portfolio, and effective networking techniques.",
-    },
-    {
-      title: "Is registration open?",
-      description: "The Early Registration has closed. However, Official Registration will be open on OscarPlus soon!.",
-    },
-    {
-      title: "I registered, now what?",
-      description: "If you have registered through the Early Registration, you will receive an email with more information about the event and you will be placed on the priority list.",
-    },
-    {
-      title: "What is 'Priority List'?",
-      description: "While we aim to accommodate as many students as possible, space is limited to 300 attendees. Those who completed early registration will have the opportunity to secure their spot first.",
     },
     {
       title:
@@ -67,11 +55,6 @@ const FAQ = () => {
       title: "Do I have to pay to attend the event?",
       description:
         "Absolutely not. This event is completely free; however, space is limited!",
-    },
-    {
-      title:
-        "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
-      description: "We have 1p10 bonus confirmed! However, we are still working to get 1p13.",
     },
     {
       title:

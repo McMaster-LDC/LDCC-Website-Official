@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap");
+
+/* =====================================
+   HERO BACKGROUND
+===================================== */
+
+.ldc-hero {
+  font-family: "Outfit", sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    #edf5ff 0%,
+    #f6f5fa 35%,
+    #fff3e8 100%
+  );
+}
+
+/* Strong gradient ABOVE background image */
+
+.ldc-gradient-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 245, 255, 0.82) 0%,
+    rgba(246, 247, 252, 0.72) 28%,
+    rgba(255, 247, 241, 0.56) 62%,
+    rgba(255, 239, 226, 0.30) 100%
+  );
+}
+
+/* =====================================
+   MAIN TITLE
+===================================== */
+
+.ldc-title {
+  font-family: "Moderustic", sans-serif;
+
+  font-size: clamp(2.15rem, 5.8vw, 6.3rem);
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  letter-spacing: -0.04em;
+
+  color: #641927;
+}
+
+.ldc-title span {
+  display: block;
+  white-space: nowrap;
+}
+
+.ldc-title .ldc-title-accent {
+  color: #ac4753;
+}
+
+/* =====================================
+   GENERAL ENTRANCE ANIMATIONS
+===================================== */
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-reveal {
+  opacity: 0;
+
+  animation: heroFadeUp 0.65s
+    cubic-bezier(0.22, 1, 0.36, 1)
+    forwards;
+}
+
+/* Stagger animations */
+
+.hero-badge {
+  animation-delay: 0.08s;
+}
+
+.hero-title {
+  animation-delay: 0.18s;
+}
+
+.hero-details {
+  animation-delay: 0.32s;
+}
+
+.hero-description {
+  animation-delay: 0.43s;
+}
+
+.hero-sponsor {
+  animation-delay: 0.55s;
+}
+
+/* =====================================
+   SOCIAL ICON BOUNCE ANIMATION
+===================================== */
+
+@keyframes heroSocialBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(22px) scale(0.88);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateY(-12px) scale(1.04);
+  }
+
+  72% {
+    transform: translateY(4px) scale(0.98);
+  }
+
+  88% {
+    transform: translateY(-3px) scale(1.01);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.hero-social-entry {
+  display: inline-flex;
+
+  opacity: 0;
+
+  animation: heroSocialBounce 0.8s
+    cubic-bezier(0.2, 0.8, 0.2, 1)
+    forwards;
+}
+
+/* Hover animation */
+
+.hero-social-link:hover {
+  transform: translateY(-4px) scale(1.06);
+}
+
+/* =====================================
+   ACCESSIBILITY
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-reveal,
+  .hero-social-entry {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+
+  .hero-social-link:hover {
+    transform: none;
+  }
+}

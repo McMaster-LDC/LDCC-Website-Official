@@ -12,13 +12,13 @@ import { TbMapPin2 } from "react-icons/tb";
 const About = () => {
 
     //Update date when event date is confirmed
-    const dateOfEvent = ['Date: Monday March 17th, 2025']
+    const dateOfEvent = ['Date: January 30, 2027']
 
     //Update time when event time is confirmed
-    const timeOfEvent = ['Timings: 5:00 - 9:00 PM (Doors open at 4:30 PM)']
+    const timeOfEvent = ['Timings: TBD']
 
     //Update hall when exact location is confirmed
-    const hallOfEvent = ['CIBC Hall']
+    const hallOfEvent = ['PGCLL']
 
     const eventList = [
         {
@@ -38,11 +38,10 @@ const About = () => {
         },
     ]
 
-    const eventInfo = <p>The Leadership Development Conference (LDC) is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
+    const eventInfo = <p>The Leadership Development Conference aims to empower and equip students with leadership skills you will need to be successful in your academic and professional journey. Leadership plays a vital role in group settings, holding yourself accountable and others accountable for their work, learning from failure, and taking charge of your growth.
         <br/><br/>
-    Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.
-        <br/><br/>
-    This year, the theme is <strong><i>Build Your Personal Brand, Shape Your Future</i></strong>
+    Through sessions focused on teambuilding, personal branding, and the opportunity to hear from professionals in your dream careers, LDC has the potential to change your engineering trajectory (for good) and open new doors!         <br/><br/>
+    This year, the theme is <strong><i>Becoming Boundless Through Leadership </i></strong>
     </p>
 
 
@@ -52,10 +51,10 @@ const About = () => {
                 <h1 className='flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>About</h1>
                 <article className="flex justify-between max-w-screen-xl w-full items-center -mt-4 gap-4">
                     <div className='flex flex-col text-start'>
-                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
+                        <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '27</h1>
                         {/* <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p> */}
 
-                        <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md' >Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, final-year capstone projects, networking opportuinties and Linkedin headshots! Early registeration is now closed! </p>
+                        <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md' >Join McMaster University's <strong>annual student run engineering conference</strong> featuring trailblazing speakers from industry, networking opportunities, Linkedin headshots, and more!  </p>
                         
                         <section className='flex flex-col text-lg font-bold gap-2'>
                             <div className='flex gap-2 items-center'>
