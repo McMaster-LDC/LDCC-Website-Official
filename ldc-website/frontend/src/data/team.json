@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Bianca Almeida",
+    "image": "Bianca.jpg",
+    "objectPosition": "50% 30%",
+    "position": "LDC Co-Chair",
+    "programAndLevel": "Mechatronics and Biomedical Engineering II",
+    "favoriteAnimal": "Panda",
+    "favoriteSuperhero": "Spiderman"
+  },
+  {
+    "name": "Prabhleen Grewal",
+    "image": "Prabhleen.jpg",
+    "objectPosition": "50% 80%",
+    "position": "LDC Co-Chair",
+    "programAndLevel": "Materials Engineering IV",
+    "favoriteAnimal": "Tiger",
+    "favoriteSuperhero": "Spider-man"
+  },
+  {
+    "name": "Dima Mohammed",
+    "image": "Dima.jpg",
+    "objectPosition": "50% 65%",
+    "position": "Co-VP Logistics",
+    "programAndLevel": "Chemical and Bioengineering II",
+    "favoriteAnimal": "Cat",
+    "favoriteSuperhero": "Spiderman"
+  },
+  {
+    "name": "Bowen Deng",
+    "image": "Bowen.jpg",
+    "objectPosition": "50% 65%",
+    "position": "VP Programming",
+    "programAndLevel": "Engineering Physics IV",
+    "favoriteAnimal": "Dog",
+    "favoriteSuperhero": "Captain America"
+  },
+  {
+    "name": "Ian Nykamp",
+    "image": "Ian.jpg",
+    "objectPosition": "50% 65%",
+    "position": "Co-VP Logistics",
+    "programAndLevel": "Biotechnology III",
+    "favoriteAnimal": "Platypus",
+    "favoriteSuperhero": "Invincible"
+  },
+  {
+    "name": "Wafa Agwil",
+    "image": "Wafa.jpg",
+    "objectPosition": "50% 30%",
+    "position": "VP Sponsorship",
+    "programAndLevel": "Civil Engineering B.Tech III",
+    "favoriteAnimal": "Horse",
+    "favoriteSuperhero": "Spider-Man"
+  },
+  {
+    "name": "Samantha Shuai",
+    "image": "Samantha.jpg",
+    "objectPosition": "50% 65%",
+    "position": "VP Finance",
+    "programAndLevel": "Software Engineering II",
+    "favoriteAnimal": "Red Panda",
+    "favoriteSuperhero": "Iron Man"
+  },
+  {
+    "name": "Diya Kundu",
+    "image": "Diya.jpg",
+    "objectPosition": "50% 65%",
+    "position": "VP Communications",
+    "programAndLevel": "Materials Engineering IV",
+    "favoriteAnimal": "Dog",
+    "favoriteSuperhero": "Iron man"
+  },
+  {
+    "name": "May Yan",
+    "image": "May.jpg",
+    "objectPosition": "50% 65%",
+    "position": "VP Website Developer",
+    "programAndLevel": "Software Eng V",
+    "favoriteAnimal": "Samoyed",
+    "favoriteSuperhero": "Thor"
+  }
+]
