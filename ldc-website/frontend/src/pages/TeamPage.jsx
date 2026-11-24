@@ -1,15 +1,11 @@
 import Footer from "../components/Footer"
-import ComingSoon from "../components/ComingSoon"
+import Team from "../components/Team"
 
 const TeamPage = () => {
 
     return (
         <>
-            <ComingSoon
-                title="Team"
-                description="We're working on something exciting! The conference team is currently being finalized."
-            />
-            
+            <Team />
             <Footer />
         </>
     )
